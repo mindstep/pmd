@@ -1135,11 +1135,11 @@
 
     <modules>
         <module>pmd-core</module>
-        <module>pmd-cpp</module>
+        <!-- <module>pmd-cpp</module>
         <module>pmd-cs</module>
-        <module>pmd-dart</module>
+        <module>pmd-dart</module> -->
         <module>pmd-dist</module>
-        <module>pmd-fortran</module>
+        <!-- <module>pmd-fortran</module>
         <module>pmd-gherkin</module>
         <module>pmd-go</module>
         <module>pmd-groovy</module>
@@ -1155,10 +1155,11 @@
         <module>pmd-plsql</module>
         <module>pmd-python</module>
         <module>pmd-ruby</module>
-        <module>pmd-swift</module>
+        <module>pmd-swift</module> -->
         <module>pmd-test</module>
         <module>pmd-vm</module>
         <module>pmd-xml</module>
+        <module>pmd-abap</module>
 
         <!-- java8 modules -->
         <module>pmd-apex-jorje</module>

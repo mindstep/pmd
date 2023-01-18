@@ -46,7 +46,7 @@ public class AnyTokenizer implements Tokenizer {
         this(makePattern(eolCommentStart), eolCommentStart);
     }
 
-    private AnyTokenizer(Pattern pattern, String commentStart) {
+    public AnyTokenizer(Pattern pattern, String commentStart) {
         this.pattern = pattern;
         this.commentStart = commentStart;
     }
